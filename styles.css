@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body,
+html {
+	background-color: darkblue;
+}
+
+.container {
+	min-height: 100vh;
+	min-width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+main {
+	width: 500px;
+	flex-shrink: 0;
+	background-color: lightgray;
+	padding: 10px;
+}
+
+.stats {
+	display: flex;
+	border: 1px black solid;
+	gap: 10px;
+	padding: 5px;
+}
+
+.stats-monster {
+	display: none;
+	background-color: red;
+	color: white;
+}
+
+.controls {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px black solid;
+	gap: 5px;
+	padding: 5px;
+}
+
+.btn {
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.btn:active {
+	transform: scale(0.95);
+}
+
+.text {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
