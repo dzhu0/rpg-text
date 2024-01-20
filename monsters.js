@@ -1,20 +1,26 @@
 export default [
 	{
 		id: 1,
-		name: "slime",
+		name: "Slime",
 		level: 2,
-		health: 15
+		health: 15,
+		win: 6,
+		lose: 5
 	},
 	{
 		id: 2,
-		name: "fanged beast",
+		name: "Fanged Beast",
 		level: 8,
-		health: 60
+		health: 60,
+		win: 6,
+		lose: 5
 	},
 	{
 		id: 3,
-		name: "dragon",
+		name: "Dragon",
 		level: 20,
-		health: 300
+		health: 300,
+		win: 6,
+		lose: 7
 	}
 ]
