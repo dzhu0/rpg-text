@@ -1,22 +1,22 @@
 export default [
     {
         id: 1,
-        name: "stick",
+        name: "Stick",
         power: 5
     },
     {
         id: 2,
-        name: "dagger",
+        name: "Dagger",
         power: 30
     },
     {
         id: 3,
-        name: "claw hammer",
+        name: "Claw Hammer",
         power: 50
     },
     {
         id: 4,
-        name: "sword",
+        name: "Sword",
         power: 100
     }
 ]
